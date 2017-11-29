@@ -204,6 +204,9 @@ For detail, see `comment-dwim'."
   (setq bb-keywords-regexp nil)
   (setq bb-base-function-decl-regexp nil)
 
+  (setq comment-start "# ")
+  (setq comment-start-skip "#+\\s-*")
+
   )
 
 (provide 'bb-mode)
